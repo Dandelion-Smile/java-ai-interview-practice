@@ -1,0 +1,11 @@
+local-config.json
+*.pdf
+state.json
+state.*.json
+sessions/
+backups/
+.write.lock
+*.tmp
+__pycache__/
+.DS_Store
+Thumbs.db

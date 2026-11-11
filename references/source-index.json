@@ -1,0 +1,3169 @@
+{
+  "source_id": "java-interview-manual-v1",
+  "path": null,
+  "sha256": "a5ad2888b2b561fa1cff64411b85eda66b44ae360cf9d931867a39fbc11fbfe3",
+  "page_count": 166,
+  "page_numbering": "PDF page index + 1, not printed page number",
+  "outline": [
+    {
+      "level": 1,
+      "title": "Java基础题",
+      "pdf_page": 2
+    },
+    {
+      "level": 2,
+      "title": "1.Java语言的三大特性",
+      "pdf_page": 2
+    },
+    {
+      "level": 2,
+      "title": "2.Java语言主要特性",
+      "pdf_page": 3
+    },
+    {
+      "level": 2,
+      "title": "3. JDK 和 JRE 有什么区别",
+      "pdf_page": 3
+    },
+    {
+      "level": 2,
+      "title": "4.Java基本数据类型及其封装类",
+      "pdf_page": 3
+    },
+    {
+      "level": 2,
+      "title": "5.如果main方法被声明为private会怎样？",
+      "pdf_page": 4
+    },
+    {
+      "level": 2,
+      "title": "6.说明一下public static void main(String args[])这段声明里每个关键字的作用",
+      "pdf_page": 4
+    },
+    {
+      "level": 2,
+      "title": "7.==与equals的区别",
+      "pdf_page": 4
+    },
+    {
+      "level": 2,
+      "title": "8.Object有哪些公用方法",
+      "pdf_page": 5
+    },
+    {
+      "level": 2,
+      "title": "9.为什么Java里没有全局变量?",
+      "pdf_page": 6
+    },
+    {
+      "level": 2,
+      "title": "10.while循环和do循环有什么不同？",
+      "pdf_page": 6
+    },
+    {
+      "level": 2,
+      "title": "11.char型变量中能不能存储一个中文汉字?为什么？",
+      "pdf_page": 6
+    },
+    {
+      "level": 2,
+      "title": "12.public，private，protected的区别，继承方法与访问权限",
+      "pdf_page": 6
+    },
+    {
+      "level": 2,
+      "title": "13.float f=3.4;是否正确？",
+      "pdf_page": 6
+    },
+    {
+      "level": 2,
+      "title": "14.short s1 = 1; s1 = s1 + 1;有错吗？short s1 = 1; s1 += 1;有错吗？",
+      "pdf_page": 7
+    },
+    {
+      "level": 2,
+      "title": "15.&和&&的区别？",
+      "pdf_page": 7
+    },
+    {
+      "level": 2,
+      "title": "16.IntegerCache",
+      "pdf_page": 7
+    },
+    {
+      "level": 2,
+      "title": "17.Locale类是什么？",
+      "pdf_page": 9
+    },
+    {
+      "level": 2,
+      "title": "18.Java中final、finally、finalize的区别与用法",
+      "pdf_page": 9
+    },
+    {
+      "level": 2,
+      "title": "19.hashCode()和equals()的区别",
+      "pdf_page": 9
+    },
+    {
+      "level": 2,
+      "title": "20.深拷贝和浅拷贝的区别是什么?",
+      "pdf_page": 10
+    },
+    {
+      "level": 2,
+      "title": "21.Java 中操作字符串都有哪些类？它们之间有什么区别？",
+      "pdf_page": 16
+    },
+    {
+      "level": 2,
+      "title": "22.String str=\"a\"与 String str=new String(\"a\")一样吗？",
+      "pdf_page": 16
+    },
+    {
+      "level": 2,
+      "title": "23.抽象类能使用 final 修饰吗？",
+      "pdf_page": 16
+    },
+    {
+      "level": 2,
+      "title": "24.static关键字5连问",
+      "pdf_page": 16
+    },
+    {
+      "level": 2,
+      "title": "25. 重载（Overload）和重写（Override）的区别。重载的方法能否根据返回类型进行区分？",
+      "pdf_page": 17
+    },
+    {
+      "level": 2,
+      "title": "26.Java的四种引用",
+      "pdf_page": 17
+    },
+    {
+      "level": 2,
+      "title": "27.Java 中Comparator 与Comparable 有什么不同？",
+      "pdf_page": 18
+    },
+    {
+      "level": 2,
+      "title": "28. Java 序列化,反序列化?",
+      "pdf_page": 18
+    },
+    {
+      "level": 2,
+      "title": "29.什么情况需要Java序列化?",
+      "pdf_page": 18
+    },
+    {
+      "level": 2,
+      "title": "30.序列化的实现?",
+      "pdf_page": 18
+    },
+    {
+      "level": 2,
+      "title": "31.如果某些数据不想序列化，如何处理?",
+      "pdf_page": 18
+    },
+    {
+      "level": 2,
+      "title": "32.Java泛型和类型擦除？",
+      "pdf_page": 18
+    },
+    {
+      "level": 1,
+      "title": "java集合",
+      "pdf_page": 19
+    },
+    {
+      "level": 2,
+      "title": "1.Java集合框架的基础接口有哪些？",
+      "pdf_page": 19
+    },
+    {
+      "level": 2,
+      "title": "2.Collection 和 Collections 有什么区别？",
+      "pdf_page": 19
+    },
+    {
+      "level": 2,
+      "title": "3.List、Set、Map是否继承自Collection接口？",
+      "pdf_page": 19
+    },
+    {
+      "level": 2,
+      "title": "4.Collections.sort排序内部原理",
+      "pdf_page": 20
+    },
+    {
+      "level": 2,
+      "title": "5.List、Set、Map 之间的区别是什么？",
+      "pdf_page": 20
+    },
+    {
+      "level": 2,
+      "title": "6.HashMap 和 Hashtable 有什么区别？",
+      "pdf_page": 20
+    },
+    {
+      "level": 2,
+      "title": "7.如何决定使用 HashMap 还是 TreeMap？",
+      "pdf_page": 20
+    },
+    {
+      "level": 2,
+      "title": "8.说一下 HashMap 的实现原理？",
+      "pdf_page": 20
+    },
+    {
+      "level": 2,
+      "title": "9.说一下 HashSet 的实现原理？",
+      "pdf_page": 21
+    },
+    {
+      "level": 2,
+      "title": "10.ArrayList 和 LinkedList 的区别是什么？",
+      "pdf_page": 21
+    },
+    {
+      "level": 2,
+      "title": "11.为何Map接口不继承Collection接口？",
+      "pdf_page": 21
+    },
+    {
+      "level": 2,
+      "title": "12.ArrayList和Vector有何异同点？",
+      "pdf_page": 21
+    },
+    {
+      "level": 2,
+      "title": "13.Array 和 ArrayList 有何区别？",
+      "pdf_page": 21
+    },
+    {
+      "level": 2,
+      "title": "14.在 Queue 中 poll()和 remove()有什么区别？",
+      "pdf_page": 22
+    },
+    {
+      "level": 2,
+      "title": "15.LinkedHashMap有什么特点?",
+      "pdf_page": 22
+    },
+    {
+      "level": 2,
+      "title": "16.HashMap的底层实现原理？（高频问题）",
+      "pdf_page": 22
+    },
+    {
+      "level": 2,
+      "title": "17.HashMap并发安全的问题",
+      "pdf_page": 32
+    },
+    {
+      "level": 2,
+      "title": "18.JDK1.8与JDK1.7的性能对比",
+      "pdf_page": 34
+    },
+    {
+      "level": 2,
+      "title": "18.HashMap操作注意事项以及优化?",
+      "pdf_page": 36
+    },
+    {
+      "level": 1,
+      "title": "异常&反射",
+      "pdf_page": 37
+    },
+    {
+      "level": 2,
+      "title": "1.error和exception有什么区别？",
+      "pdf_page": 37
+    },
+    {
+      "level": 2,
+      "title": "2.说出5个常见的RuntimeException？",
+      "pdf_page": 37
+    },
+    {
+      "level": 2,
+      "title": "3.throw和throws的区别?",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "4.Java中异常分类",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "5.如何自定义异常",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "6.Java中异常处理",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "7.什么是Java反射机制?",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "8.举例什么地方用到反射机制？",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "9.java反射机制的作用",
+      "pdf_page": 39
+    },
+    {
+      "level": 2,
+      "title": "10.Java反射机制类",
+      "pdf_page": 39
+    },
+    {
+      "level": 2,
+      "title": "11.反射机制优缺点？",
+      "pdf_page": 39
+    },
+    {
+      "level": 2,
+      "title": "12.利用反射创建对象?",
+      "pdf_page": 39
+    },
+    {
+      "level": 1,
+      "title": "IO&NIO",
+      "pdf_page": 40
+    },
+    {
+      "level": 2,
+      "title": "1.什么是IO流？",
+      "pdf_page": 41
+    },
+    {
+      "level": 2,
+      "title": "2.java中有几种类型的流？",
+      "pdf_page": 41
+    },
+    {
+      "level": 2,
+      "title": "3.字节流和字符流哪个好？怎么选择？",
+      "pdf_page": 41
+    },
+    {
+      "level": 2,
+      "title": "4.读取数据量大的文件时，速度会很慢，如何选择流？",
+      "pdf_page": 42
+    },
+    {
+      "level": 2,
+      "title": "5. IO模型有几种？",
+      "pdf_page": 42
+    },
+    {
+      "level": 2,
+      "title": "6.阻塞IO（blocking IO）",
+      "pdf_page": 42
+    },
+    {
+      "level": 2,
+      "title": "7.非阻塞I/O（nonblocking IO）",
+      "pdf_page": 42
+    },
+    {
+      "level": 2,
+      "title": "8.I/O多路复用模型(IO multiplexing)",
+      "pdf_page": 43
+    },
+    {
+      "level": 2,
+      "title": "9.信号驱动I/O模型",
+      "pdf_page": 43
+    },
+    {
+      "level": 2,
+      "title": "10.异步 I/O(asynchronous IO)",
+      "pdf_page": 44
+    },
+    {
+      "level": 2,
+      "title": "11.NIO与IO的区别？",
+      "pdf_page": 44
+    },
+    {
+      "level": 2,
+      "title": "12.NIO和IO适用场景",
+      "pdf_page": 45
+    },
+    {
+      "level": 2,
+      "title": "13.NIO核心组件",
+      "pdf_page": 45
+    },
+    {
+      "level": 2,
+      "title": "14.什么是channel",
+      "pdf_page": 45
+    },
+    {
+      "level": 2,
+      "title": "15.Java NIO中最常用的通道实现?",
+      "pdf_page": 46
+    },
+    {
+      "level": 2,
+      "title": "16.Buffer是什么?",
+      "pdf_page": 46
+    },
+    {
+      "level": 2,
+      "title": "17.核心Buffer实现有哪些？",
+      "pdf_page": 46
+    },
+    {
+      "level": 2,
+      "title": "18.buffer读写数据基本操作",
+      "pdf_page": 46
+    },
+    {
+      "level": 2,
+      "title": "19.Selector是什么?",
+      "pdf_page": 47
+    },
+    {
+      "level": 2,
+      "title": "20.通道可以监听那几个事件？",
+      "pdf_page": 47
+    },
+    {
+      "level": 2,
+      "title": "21.为什么要用Selector？",
+      "pdf_page": 47
+    },
+    {
+      "level": 2,
+      "title": "22.Selector处理多Channel图文说明",
+      "pdf_page": 47
+    },
+    {
+      "level": 1,
+      "title": "多线程",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "1.什么是进程?",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "2.什么是线程？",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "3.线程的实现方式?",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "4.Thread 类中的start() 和 run() 方法有什么区别?",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "5.线程NEW状态",
+      "pdf_page": 48
+    },
+    {
+      "level": 2,
+      "title": "6.线程RUNNABLE状态",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "7.线程的RUNNING状态",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "8.线程的BLOCKED状态",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "9.线程的TERMINATED状态",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "10.线程状态转化图",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "11.i——————与System.out.println()的异常",
+      "pdf_page": 49
+    },
+    {
+      "level": 2,
+      "title": "12.如何知道代码段被哪个线程调用？",
+      "pdf_page": 50
+    },
+    {
+      "level": 2,
+      "title": "13.线程活动状态？",
+      "pdf_page": 50
+    },
+    {
+      "level": 2,
+      "title": "14.sleep()方法",
+      "pdf_page": 51
+    },
+    {
+      "level": 2,
+      "title": "15.如何优雅的设置睡眠时间?",
+      "pdf_page": 51
+    },
+    {
+      "level": 2,
+      "title": "16.停止线程",
+      "pdf_page": 51
+    },
+    {
+      "level": 2,
+      "title": "17.interrupted 和 isInterrupted",
+      "pdf_page": 51
+    },
+    {
+      "level": 2,
+      "title": "18.yield",
+      "pdf_page": 51
+    },
+    {
+      "level": 2,
+      "title": "19.线程的优先级",
+      "pdf_page": 53
+    },
+    {
+      "level": 2,
+      "title": "20.优先级继承特性",
+      "pdf_page": 53
+    },
+    {
+      "level": 2,
+      "title": "21.谁跑的更快？",
+      "pdf_page": 53
+    },
+    {
+      "level": 2,
+      "title": "22.线程种类",
+      "pdf_page": 54
+    },
+    {
+      "level": 2,
+      "title": "23.守护线程的特点",
+      "pdf_page": 54
+    },
+    {
+      "level": 2,
+      "title": "24.Java中典型的守护线程",
+      "pdf_page": 54
+    },
+    {
+      "level": 2,
+      "title": "25.如何设置守护线程",
+      "pdf_page": 54
+    },
+    {
+      "level": 2,
+      "title": "25.Java虚拟机退出时Daemon线程中的finally块一定会执行？",
+      "pdf_page": 55
+    },
+    {
+      "level": 2,
+      "title": "26.设置线程上下文类加载器",
+      "pdf_page": 55
+    },
+    {
+      "level": 2,
+      "title": "27.join",
+      "pdf_page": 55
+    },
+    {
+      "level": 2,
+      "title": "28.什么是synchronized?",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "29.synchronized包括哪两个jvm重要的指令？",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "30.synchronized关键字用法?",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "31.synchronized锁的是什么?",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "32.Java对象头",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "33.Java对象头长度",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "34.Java对象头的存储结构",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "35.Mark Word的状态变化",
+      "pdf_page": 56
+    },
+    {
+      "level": 2,
+      "title": "36.锁的升降级规则",
+      "pdf_page": 57
+    },
+    {
+      "level": 2,
+      "title": "37.偏向锁",
+      "pdf_page": 57
+    },
+    {
+      "level": 2,
+      "title": "38.关闭偏向锁延迟",
+      "pdf_page": 57
+    },
+    {
+      "level": 2,
+      "title": "39.如何关闭偏向锁",
+      "pdf_page": 57
+    },
+    {
+      "level": 2,
+      "title": "40.轻量级锁",
+      "pdf_page": 57
+    },
+    {
+      "level": 2,
+      "title": "41.轻量锁的解锁",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "42.锁的优缺点对比",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "43.什么是原子操作",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "44.Java如何实现原子操作",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "45.CAS实现原子操作的3大问题",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "46.什么是ABA问题",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "47.CAS循环时间长占用资源大问题",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "48.CAS只能保证一个共享变量原子操作",
+      "pdf_page": 58
+    },
+    {
+      "level": 2,
+      "title": "49.volatile关键字",
+      "pdf_page": 59
+    },
+    {
+      "level": 2,
+      "title": "50.等待/通知机制",
+      "pdf_page": 59
+    },
+    {
+      "level": 2,
+      "title": "51.wait",
+      "pdf_page": 59
+    },
+    {
+      "level": 2,
+      "title": "52.notify",
+      "pdf_page": 59
+    },
+    {
+      "level": 2,
+      "title": "53.notify/notifyAll",
+      "pdf_page": 59
+    },
+    {
+      "level": 2,
+      "title": "54.等待/通知经典范式",
+      "pdf_page": 59
+    },
+    {
+      "level": 3,
+      "title": "55.ThreadLocal",
+      "pdf_page": 60
+    },
+    {
+      "level": 3,
+      "title": "56.ThreadLocal使用",
+      "pdf_page": 60
+    },
+    {
+      "level": 2,
+      "title": "57.解决get()返回null问题",
+      "pdf_page": 60
+    },
+    {
+      "level": 2,
+      "title": "58.Lock接口",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "59.Lock接口提供 synchronized不具备的主要特性",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "60.重入锁 ReentrantLock",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "61.重进入是什么意思？",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "62.ReentrantLock默认锁？",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "63.公平锁和非公平锁的区别",
+      "pdf_page": 62
+    },
+    {
+      "level": 2,
+      "title": "64.读写锁",
+      "pdf_page": 62
+    },
+    {
+      "level": 2,
+      "title": "读写锁允许同一时刻多个读线程访问，但是写线程和其他写线程均被阻塞。读写锁维护一个读锁一个写锁，读写分离，并发性得到了提升。",
+      "pdf_page": 62
+    },
+    {
+      "level": 2,
+      "title": "65.LockSupport工具",
+      "pdf_page": 62
+    },
+    {
+      "level": 2,
+      "title": "66.Condition接口",
+      "pdf_page": 62
+    },
+    {
+      "level": 2,
+      "title": "67.Condition使用",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "68.ArrayBlockingQueue?",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "69.PriorityBlockingQueue?",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "70.DelayQueue?",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "71.Java并发容器，你知道几个？",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "72.ConcurrentHashMap",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "73.ConcurrentLinkedQueue",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "74.什么是阻塞队列？",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "75.阻塞队列常用的应用场景？",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "76.Java里的阻塞的队列",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "77.Fork/Join",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "78.工作窃取算法",
+      "pdf_page": 64
+    },
+    {
+      "level": 2,
+      "title": "79.工作窃取算法的有缺点",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "80.Java中原子操作更新基本类型，Atomic包提供了哪几个类?",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "81.Java中原子操作更新数组，Atomic包提供了哪几个类?",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "82.Java中原子操作更新引用类型，Atomic包提供了哪几个类?",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "83.Java中原子操作更新字段类，Atomic包提供了哪几个类?",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "84.JDK并发包中提供了哪几个比较常见的处理并发的工具类？",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "85.CountDownLatch",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "86.CyclicBarrier",
+      "pdf_page": 66
+    },
+    {
+      "level": 2,
+      "title": "87.CountDownLatch与CyclicBarrier区别",
+      "pdf_page": 66
+    },
+    {
+      "level": 2,
+      "title": "88.Semaphore",
+      "pdf_page": 66
+    },
+    {
+      "level": 2,
+      "title": "89.Exchanger",
+      "pdf_page": 66
+    },
+    {
+      "level": 2,
+      "title": "90.为什么使用线程池",
+      "pdf_page": 66
+    },
+    {
+      "level": 2,
+      "title": "91.线程池工作流程",
+      "pdf_page": 67
+    },
+    {
+      "level": 2,
+      "title": "92.创建线程池参数有哪些，作用？",
+      "pdf_page": 67
+    },
+    {
+      "level": 2,
+      "title": "93.向线程池提交任务",
+      "pdf_page": 68
+    },
+    {
+      "level": 2,
+      "title": "94.关闭线程池",
+      "pdf_page": 68
+    },
+    {
+      "level": 2,
+      "title": "95.线程池如何合理设置",
+      "pdf_page": 68
+    },
+    {
+      "level": 2,
+      "title": "96.Executor",
+      "pdf_page": 69
+    },
+    {
+      "level": 2,
+      "title": "97.Executor框架的主要成员",
+      "pdf_page": 69
+    },
+    {
+      "level": 2,
+      "title": "98.FixedThreadPool",
+      "pdf_page": 69
+    },
+    {
+      "level": 2,
+      "title": "99.SingleThreadExecutor",
+      "pdf_page": 70
+    },
+    {
+      "level": 2,
+      "title": "100.CachedThreadPool",
+      "pdf_page": 70
+    },
+    {
+      "level": 1,
+      "title": "JVM",
+      "pdf_page": 71
+    },
+    {
+      "level": 2,
+      "title": "1.JDK、JRE、JVM关系？",
+      "pdf_page": 71
+    },
+    {
+      "level": 2,
+      "title": "2.启动程序如何查看加载了哪些类，以及加载顺序？",
+      "pdf_page": 71
+    },
+    {
+      "level": 2,
+      "title": "3. class字节码文件10个主要组成部分?",
+      "pdf_page": 71
+    },
+    {
+      "level": 2,
+      "title": "4.画一下jvm内存结构图？",
+      "pdf_page": 72
+    },
+    {
+      "level": 2,
+      "title": "5.程序计数器",
+      "pdf_page": 72
+    },
+    {
+      "level": 2,
+      "title": "6.Java虚拟机栈",
+      "pdf_page": 72
+    },
+    {
+      "level": 2,
+      "title": "7.本地方法栈",
+      "pdf_page": 72
+    },
+    {
+      "level": 2,
+      "title": "8.Java堆",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "9.方法区",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "10.运行时常量池？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "11.什么时候抛出StackOverflowError?",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "12.Java7和Java8在内存模型上有什么区别？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "13.程序员最关注的两个内存区域？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "14.直接内存是什么？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "15.除了哪个区域外，虚拟机内存其他运行时区域都会发生OutOfMemoryError？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "16.什么情况下会出现堆内存溢出？",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "17.如何实现一个堆内存溢出？",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "18.空间什么情况下会抛出OutOfMemoryError？",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "19.如何实现StrackOverflowError?",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "20.如何设置直接内存容量?",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "21.Java堆内存组成？",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "22.Edem : from : to默认比例是?",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "23.垃圾标记阶段？",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "24.引用计数法?",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "25.根搜索算法？",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "26.JVM中三种常见的垃圾收集算法？",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "27.标记-清除算法？",
+      "pdf_page": 75
+    },
+    {
+      "level": 2,
+      "title": "28.复制算法？",
+      "pdf_page": 76
+    },
+    {
+      "level": 2,
+      "title": "29.标记-整理算法？",
+      "pdf_page": 77
+    },
+    {
+      "level": 2,
+      "title": "30.分代收集算法？",
+      "pdf_page": 78
+    },
+    {
+      "level": 2,
+      "title": "31.垃圾收集器？",
+      "pdf_page": 78
+    },
+    {
+      "level": 2,
+      "title": "32.Stop The World?",
+      "pdf_page": 79
+    },
+    {
+      "level": 2,
+      "title": "33.Serial收集器?",
+      "pdf_page": 79
+    },
+    {
+      "level": 2,
+      "title": "34.PartNew收集器?",
+      "pdf_page": 79
+    },
+    {
+      "level": 2,
+      "title": "36.Parallel Scavenge?",
+      "pdf_page": 79
+    },
+    {
+      "level": 2,
+      "title": "37.Parallel Old收集器?",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "38.CMS 收集器?",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "39.CMS垃圾回收的步骤?",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "41.CMS收集器优点？缺点？",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "42.G1收集器?",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "42. G1收集器是如何改进收集方式的？",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "43.虚拟机进程状况工具？",
+      "pdf_page": 81
+    },
+    {
+      "level": 2,
+      "title": "44.虚拟机统计信息工具？",
+      "pdf_page": 81
+    },
+    {
+      "level": 2,
+      "title": "45.jstat 工具主要选项？",
+      "pdf_page": 81
+    },
+    {
+      "level": 2,
+      "title": "45.配置信息工具?",
+      "pdf_page": 82
+    },
+    {
+      "level": 2,
+      "title": "46.内存映像工具？",
+      "pdf_page": 82
+    },
+    {
+      "level": 2,
+      "title": "47.虚拟机堆转存储快照分析工具？",
+      "pdf_page": 82
+    },
+    {
+      "level": 2,
+      "title": "48.堆栈跟踪工具？",
+      "pdf_page": 82
+    },
+    {
+      "level": 2,
+      "title": "49.除了命令行，还有什么可视化工具？",
+      "pdf_page": 82
+    },
+    {
+      "level": 2,
+      "title": "50.类加载过程?",
+      "pdf_page": 82
+    },
+    {
+      "level": 1,
+      "title": "Linux",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "1.什么是Linux？",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "2.Linux内核主要负责哪些功能",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "3.交互方式",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "4.启动shell",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "5.bash手册",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "6.登陆后你在的位置？",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "7.绝对文件路径?相对文件路径？快捷方式？",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "8.迷路，我的当前位置在哪？",
+      "pdf_page": 84
+    },
+    {
+      "level": 2,
+      "title": "9.如何切换目录？",
+      "pdf_page": 84
+    },
+    {
+      "level": 2,
+      "title": "10.如何查看目录中的文件？区分哪些是文件哪些是目录?递归查?",
+      "pdf_page": 84
+    },
+    {
+      "level": 2,
+      "title": "11.创建文件？创建目录？批量创建?",
+      "pdf_page": 84
+    },
+    {
+      "level": 2,
+      "title": "12.删除文件?强制删除？递归删除?",
+      "pdf_page": 85
+    },
+    {
+      "level": 2,
+      "title": "13.制表符自动补全？",
+      "pdf_page": 85
+    },
+    {
+      "level": 2,
+      "title": "14.复制文件",
+      "pdf_page": 86
+    },
+    {
+      "level": 2,
+      "title": "15.重新命名文件？移动文件？",
+      "pdf_page": 86
+    },
+    {
+      "level": 2,
+      "title": "16.什么是链接文件？",
+      "pdf_page": 86
+    },
+    {
+      "level": 2,
+      "title": "17.查看文件类型?字符编码？",
+      "pdf_page": 86
+    },
+    {
+      "level": 2,
+      "title": "18.查看整个文件？按照有文本显示行号？无文本显示行号？",
+      "pdf_page": 87
+    },
+    {
+      "level": 2,
+      "title": "19.查看部分文件",
+      "pdf_page": 87
+    },
+    {
+      "level": 2,
+      "title": "20.数据排序?对数字进行排序？对月份排序？",
+      "pdf_page": 87
+    },
+    {
+      "level": 2,
+      "title": "21.查找匹配数据？反向搜？",
+      "pdf_page": 88
+    },
+    {
+      "level": 2,
+      "title": "22.压缩工具有哪些?",
+      "pdf_page": 88
+    },
+    {
+      "level": 2,
+      "title": "23.如何压缩文件？如何解压文件?",
+      "pdf_page": 88
+    },
+    {
+      "level": 2,
+      "title": "24.Linux广泛使用的归档数据方法?",
+      "pdf_page": 89
+    },
+    {
+      "level": 2,
+      "title": "25.如何查看命令历史记录?",
+      "pdf_page": 89
+    },
+    {
+      "level": 2,
+      "title": "26.查看已有别名?建立属于自己的别名?",
+      "pdf_page": 89
+    },
+    {
+      "level": 2,
+      "title": "27.什么是环境变量？",
+      "pdf_page": 90
+    },
+    {
+      "level": 2,
+      "title": "28.储存用户的文件是?包括哪些信息？",
+      "pdf_page": 90
+    },
+    {
+      "level": 2,
+      "title": "29.账户默认信息？添加账户？删除用户？",
+      "pdf_page": 90
+    },
+    {
+      "level": 2,
+      "title": "30.查看组信息？如何创建组？删除组？",
+      "pdf_page": 91
+    },
+    {
+      "level": 2,
+      "title": "31.文件描述符?每个描述符的含义?",
+      "pdf_page": 91
+    },
+    {
+      "level": 2,
+      "title": "31.修改权限?",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "32.如何执行可以执行文件?",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "33.列出已经安装的包？安装软件？更新软件？卸载?",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "34.源码安装通常的路子?",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "35.vim编辑器几种操作模式？基本操作?",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "36.查看设备还有多少磁盘空间?",
+      "pdf_page": 93
+    },
+    {
+      "level": 3,
+      "title": "快速判断某个特定目录是否有超大文件？",
+      "pdf_page": 93
+    },
+    {
+      "level": 2,
+      "title": "37.默认进程信息显示?",
+      "pdf_page": 93
+    },
+    {
+      "level": 2,
+      "title": "38.实时监测进程",
+      "pdf_page": 94
+    },
+    {
+      "level": 2,
+      "title": "39.如何中断一个进程?",
+      "pdf_page": 94
+    },
+    {
+      "level": 2,
+      "title": "40.如何把一个进程放到后台运行？",
+      "pdf_page": 94
+    },
+    {
+      "level": 2,
+      "title": "41.如何停止一个进程?",
+      "pdf_page": 94
+    },
+    {
+      "level": 2,
+      "title": "42.验证网络可链接命令是什么？什么原理？",
+      "pdf_page": 95
+    },
+    {
+      "level": 2,
+      "title": "43.查看某端口是否被占用?",
+      "pdf_page": 96
+    },
+    {
+      "level": 2,
+      "title": "44.如何查找匹配的文件？基于文件属性？",
+      "pdf_page": 96
+    },
+    {
+      "level": 2,
+      "title": "45.如何查看当前主机名？如何修改？如何重启后生效？",
+      "pdf_page": 97
+    },
+    {
+      "level": 2,
+      "title": "46.如何写一条规则，拒绝某个ip访问本机8080端口?",
+      "pdf_page": 97
+    },
+    {
+      "level": 2,
+      "title": "47.哪个文件包含了主机名和ip的映射关系?",
+      "pdf_page": 97
+    },
+    {
+      "level": 2,
+      "title": "48.如何用sed只打印第5行?删除第一行？替换字符串?",
+      "pdf_page": 97
+    },
+    {
+      "level": 2,
+      "title": "49.打印文件第一行到第三行?",
+      "pdf_page": 98
+    },
+    {
+      "level": 2,
+      "title": "50.如何用awk查看第2行倒数第3个字段?",
+      "pdf_page": 98
+    },
+    {
+      "level": 1,
+      "title": "Mysql",
+      "pdf_page": 99
+    },
+    {
+      "level": 2,
+      "title": "1.什么是数据库?",
+      "pdf_page": 99
+    },
+    {
+      "level": 2,
+      "title": "2.如何查看某个操作的语法?",
+      "pdf_page": 99
+    },
+    {
+      "level": 2,
+      "title": "3.MySql的存储引擎有哪些?",
+      "pdf_page": 100
+    },
+    {
+      "level": 2,
+      "title": "4.常用的2种存储引擎？",
+      "pdf_page": 100
+    },
+    {
+      "level": 2,
+      "title": "6.可以针对表设置引擎吗？如何设置？",
+      "pdf_page": 100
+    },
+    {
+      "level": 2,
+      "title": "6.选择合适的存储引擎？",
+      "pdf_page": 100
+    },
+    {
+      "level": 2,
+      "title": "7.选择合适的数据类型",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "8.char & varchar",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "9.Mysql字符集",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "10.如何选择字符集?",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "11.什么是索引？",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "12.索引设计原则？",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "13.MySql有哪些索引?",
+      "pdf_page": 102
+    },
+    {
+      "level": 2,
+      "title": "14.Hash索引和B+树索引的底层实现原理:",
+      "pdf_page": 102
+    },
+    {
+      "level": 2,
+      "title": "15. 非聚簇索引一定会回表查询吗?",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "16.如何查询最后一行记录?",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "17.MySQL自增id不连续问题?",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "18.sql注入问题？",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "19.什么是3NF（范式）?",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "20. NULL和空串判断?",
+      "pdf_page": 103
+    },
+    {
+      "level": 2,
+      "title": "21.什么是事务?",
+      "pdf_page": 104
+    },
+    {
+      "level": 2,
+      "title": "22.事务4个特性？",
+      "pdf_page": 104
+    },
+    {
+      "level": 2,
+      "title": "23.事务隔离级别分别是？",
+      "pdf_page": 104
+    },
+    {
+      "level": 2,
+      "title": "24.InnoDB默认事务隔离级别?如何查看当前隔离级别",
+      "pdf_page": 104
+    },
+    {
+      "level": 2,
+      "title": "25.什么是锁？",
+      "pdf_page": 104
+    },
+    {
+      "level": 2,
+      "title": "26.死锁？",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "27.如何处理死锁？",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "28.如何创建用户？授权？",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "29.如何查看表结构？",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "30.Mysql删除表的几种方式？区别？",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "31.like走索引吗?",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "32.什么是回表？",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "33.如何避免回表？",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "34.索引覆盖是什么？",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "35.视图的优缺点？",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "36.主键和唯一索引区别？",
+      "pdf_page": 106
+    },
+    {
+      "level": 2,
+      "title": "37.如何随机获取一条记录?",
+      "pdf_page": 107
+    },
+    {
+      "level": 2,
+      "title": "38.Mysql中的数值类型？",
+      "pdf_page": 107
+    },
+    {
+      "level": 2,
+      "title": "39.查看当前表有哪些索引？",
+      "pdf_page": 107
+    },
+    {
+      "level": 2,
+      "title": "40.索引不生效的情况？",
+      "pdf_page": 107
+    },
+    {
+      "level": 2,
+      "title": "41.MVVC？",
+      "pdf_page": 107
+    },
+    {
+      "level": 2,
+      "title": "42.sql语句的执行流程？",
+      "pdf_page": 108
+    },
+    {
+      "level": 2,
+      "title": "43.如何获取select 语句执行计划?",
+      "pdf_page": 108
+    },
+    {
+      "level": 2,
+      "title": "44.explain列有哪些？含义？",
+      "pdf_page": 108
+    },
+    {
+      "level": 2,
+      "title": "45.MySql最多创建多少列索引？",
+      "pdf_page": 111
+    },
+    {
+      "level": 2,
+      "title": "46.为什么最好建立一个主键?",
+      "pdf_page": 111
+    },
+    {
+      "level": 2,
+      "title": "47.字段为什么要求建议为not null?",
+      "pdf_page": 111
+    },
+    {
+      "level": 2,
+      "title": "48.varchar(10)和int(10)代表什么含义",
+      "pdf_page": 112
+    },
+    {
+      "level": 2,
+      "title": "49.视图是什么？对比普通表优势?",
+      "pdf_page": 112
+    },
+    {
+      "level": 2,
+      "title": "50.count(*)在不同引擎的实现方式?",
+      "pdf_page": 112
+    },
+    {
+      "level": 1,
+      "title": "Spring",
+      "pdf_page": 113
+    },
+    {
+      "level": 2,
+      "title": "1.Spring框架?",
+      "pdf_page": 113
+    },
+    {
+      "level": 2,
+      "title": "2.Spring的整体架构？",
+      "pdf_page": 113
+    },
+    {
+      "level": 2,
+      "title": "3.Spring可以做什么？",
+      "pdf_page": 113
+    },
+    {
+      "level": 2,
+      "title": "4.Spring的优点?缺点？",
+      "pdf_page": 114
+    },
+    {
+      "level": 2,
+      "title": "5.你能说几个Spring5的新特性吗？",
+      "pdf_page": 114
+    },
+    {
+      "level": 2,
+      "title": "6.IOC?",
+      "pdf_page": 114
+    },
+    {
+      "level": 2,
+      "title": "7.什么是依赖注入?",
+      "pdf_page": 114
+    },
+    {
+      "level": 2,
+      "title": "8.IOC注入哪几种方式？",
+      "pdf_page": 115
+    },
+    {
+      "level": 2,
+      "title": "9.IOC优点？缺点？",
+      "pdf_page": 115
+    },
+    {
+      "level": 2,
+      "title": "10.bean的生命周期?",
+      "pdf_page": 115
+    },
+    {
+      "level": 2,
+      "title": "11.Spring有几种配置方式？",
+      "pdf_page": 115
+    },
+    {
+      "level": 2,
+      "title": "12.Spring中的bean有几种scope?",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "13.什么是AOP(面向切面编程)？",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "14.切面有几种类型的通知？分别是？",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "15.什么是连接点 （Join point)?",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "16.什么是切点（Pointcut)?",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "17.什么是切面(Aspect)?",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "18.织入(Weaving)?",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "19.引入（Introduction）？",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "20.在目标对象的生命周期里有多个点可以进行织入？",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "21.AOP动态代理策略？",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "22.什么是MVC框架？",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "23.什么是SpringMVC?",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "24.SpringMVC的核心？",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "25.SpringMVC的几个组件？",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "26.SpringMVC工作流程？",
+      "pdf_page": 117
+    },
+    {
+      "level": 2,
+      "title": "27.SpringMVC的优点？",
+      "pdf_page": 118
+    },
+    {
+      "level": 2,
+      "title": "28.单例bean是线程安全的吗？",
+      "pdf_page": 118
+    },
+    {
+      "level": 2,
+      "title": "29.Spring从哪两个角度实现自动装配？",
+      "pdf_page": 118
+    },
+    {
+      "level": 2,
+      "title": "30.自动装配有几种方式？分别是？",
+      "pdf_page": 118
+    },
+    {
+      "level": 2,
+      "title": "31.说几个声明Bean 的注解？",
+      "pdf_page": 118
+    },
+    {
+      "level": 2,
+      "title": "32.注入Java集合的标签？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "33.Spring支持的ORM？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "34.@Repository注解？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "35.@Value注解?",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "36.@Controller注解?",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "37.声明一个切面注解是哪个？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "38.映射web请求的注解是？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "39.@ResponseBody注解？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "40.@ResponseBody + @Controller =?",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "41.接收路径参数用哪个注解？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "42.@Cacheable注解？",
+      "pdf_page": 119
+    },
+    {
+      "level": 2,
+      "title": "43.清空缓存是哪个注解？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "44.@Component注解？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "45.BeanFactory 和 ApplicationContext区别？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "46.@Qualifier注解？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "47.事务的注解是?",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "48.Spring事务实现方式有？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "49.什么是事务传播？",
+      "pdf_page": 120
+    },
+    {
+      "level": 2,
+      "title": "50.Spring事务传播行为有哪些？",
+      "pdf_page": 121
+    },
+    {
+      "level": 1,
+      "title": "Mybatis",
+      "pdf_page": 121
+    },
+    {
+      "level": 2,
+      "title": "1.什么是Mybatis?",
+      "pdf_page": 121
+    },
+    {
+      "level": 2,
+      "title": "2.Hibernate优点？",
+      "pdf_page": 121
+    },
+    {
+      "level": 2,
+      "title": "3.Hibernate缺点？",
+      "pdf_page": 121
+    },
+    {
+      "level": 2,
+      "title": "4.Mybatis优点？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "5.Mybatis缺点?",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "6.什么时候用Mybatis?",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "7.Mybatis的核心组件有哪些？分别是？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "8.#{}和${}的区别是什么？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "9.Mybatis中9个动态标签是？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "10.xml映射文件中，有哪些标签？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "11.Mybatis支持注解吗？优点？缺点？",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "12.Mybatis动态sql？",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "13.Mybatis 是如何进行分页的?分页插件的原理是什么?",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "14.如何获取自增主键?",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "15.为什么Mapper接口没有实现类，却能被正常调用?",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "16.用注解好还是xml好?",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "17.如果不想手动指定别名，如何用驼峰的形式自动映射？",
+      "pdf_page": 123
+    },
+    {
+      "level": 2,
+      "title": "18.当实体属性名和表中字段不一致，怎么办？",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "19.嵌套查询用什么标签？",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "20.like模糊查询怎么写？",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "21.Mybatis支持枚举吗？",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "22.SqlSessionFactoryBuilder生命周期?",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "23.一级缓存的结构?如何开启一级缓存？如何不使用一级缓存？",
+      "pdf_page": 124
+    },
+    {
+      "level": 2,
+      "title": "24.二级缓存如何配置？",
+      "pdf_page": 125
+    },
+    {
+      "level": 2,
+      "title": "25.简述 Mybatis 的插件运行原理，以及如何编写一个插件？",
+      "pdf_page": 125
+    },
+    {
+      "level": 2,
+      "title": "26.二级缓存的回收策略有哪些？",
+      "pdf_page": 125
+    },
+    {
+      "level": 2,
+      "title": "27.Mybatis的Xml文件中id可以重复吗?",
+      "pdf_page": 125
+    },
+    {
+      "level": 2,
+      "title": "28. 和Mybatis搭配java框架中比较好用的缓存框架？有哪些特点?",
+      "pdf_page": 125
+    },
+    {
+      "level": 1,
+      "title": "Nginx",
+      "pdf_page": 126
+    },
+    {
+      "level": 2,
+      "title": "1.什么是nginx?",
+      "pdf_page": 126
+    },
+    {
+      "level": 2,
+      "title": "2.nginx主要特征？",
+      "pdf_page": 126
+    },
+    {
+      "level": 2,
+      "title": "3.nginx 常用命令?",
+      "pdf_page": 127
+    },
+    {
+      "level": 2,
+      "title": "4.工作模式及连接数上限?",
+      "pdf_page": 127
+    },
+    {
+      "level": 2,
+      "title": "5.nginx负载均衡几种算法？",
+      "pdf_page": 127
+    },
+    {
+      "level": 2,
+      "title": "6.nginx有几种进程模型?",
+      "pdf_page": 127
+    },
+    {
+      "level": 2,
+      "title": "7.如何定义错误提示页面？",
+      "pdf_page": 127
+    },
+    {
+      "level": 2,
+      "title": "8.如何精准匹配路径?",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "9.路径匹配优先级？",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "10.如何把请求转发给后端应用服务器？",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "11.如何根据文件类型设置过期时间？",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "12.禁止访问某个目录？",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "13.nginx负载均衡实现过程？",
+      "pdf_page": 128
+    },
+    {
+      "level": 2,
+      "title": "14.负载均衡配置？",
+      "pdf_page": 129
+    },
+    {
+      "level": 2,
+      "title": "15.设置超时时间？",
+      "pdf_page": 129
+    },
+    {
+      "level": 2,
+      "title": "16.开启压缩功能好处？坏处？",
+      "pdf_page": 129
+    },
+    {
+      "level": 1,
+      "title": "Redis",
+      "pdf_page": 130
+    },
+    {
+      "level": 2,
+      "title": "1.Redis是什么?",
+      "pdf_page": 130
+    },
+    {
+      "level": 2,
+      "title": "2.Redis特性?",
+      "pdf_page": 130
+    },
+    {
+      "level": 2,
+      "title": "3.Redis合适的应用场景？",
+      "pdf_page": 130
+    },
+    {
+      "level": 2,
+      "title": "4.除了Redis你还知道哪些NoSQL数据库？",
+      "pdf_page": 130
+    },
+    {
+      "level": 2,
+      "title": "5.Redis和Memcache区别？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "6.Redis的有几种数据类型？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "7.Redis有哪些高级功能？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "8.安装过Redis吗,简单说下步骤？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "9.redis几个比较主要的可执行文件？分别是？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "10.启动Redis的几种方式？",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "11.Redis配置需要自己写？如何配置？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "12.Redis客户端命令执行的方式？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "13.如何停止redis服务？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "14.如何查看当前键是否存在？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "15.如何删除数据？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "16.redis为什么快？单线程？",
+      "pdf_page": 132
+    },
+    {
+      "level": 2,
+      "title": "17.字符串最大不能超过多少？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "18.redis默认分多少个数据库？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "19.redis持久化的几种方式？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "20.RDB持久化?",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "21.RDB的持久化是如何触发的？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "22.RDB的优点？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "23.RDB的缺点？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "24.如何禁用持久化？",
+      "pdf_page": 133
+    },
+    {
+      "level": 2,
+      "title": "25.AOF持久化？",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "26.如何查询AOF是否开启?",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "27.如何开启AOF?",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "28.AOF工作流程？",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "29.为什么AOF要先把命令追加到缓存区(aof_buf)中？",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "30.AOF持久化如何触发的？",
+      "pdf_page": 134
+    },
+    {
+      "level": 2,
+      "title": "31.AOF优点？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "32.AOF缺点？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "33.混合持久化？优缺点？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "34.Redis的Java客户端官方推荐？实际选择？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "35.Redis事务？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "36.Redis事务开始到结束的几个阶段？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "37.Redis中key的过期操作？",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "38.Redis过期键删除策略?",
+      "pdf_page": 136
+    },
+    {
+      "level": 2,
+      "title": "39.Pipeline是什么？为什么要它？",
+      "pdf_page": 136
+    },
+    {
+      "level": 2,
+      "title": "40.如何获取当前最大内存？如何动态设置？",
+      "pdf_page": 136
+    },
+    {
+      "level": 2,
+      "title": "41.Redis内存溢出控制？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "42.Redis内存溢出策略？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "43.Redis高可用方案？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "44.Redis集群方案？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "45.Redis Cluster槽范围？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "46.Redis锁实现思路?",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "47.什么是布隆过滤器？",
+      "pdf_page": 137
+    },
+    {
+      "level": 2,
+      "title": "48.什么是缓存穿透？处理问题？",
+      "pdf_page": 138
+    },
+    {
+      "level": 2,
+      "title": "49.什么是缓存预热？",
+      "pdf_page": 138
+    },
+    {
+      "level": 2,
+      "title": "50.什么是缓存雪崩？处理问题？",
+      "pdf_page": 138
+    },
+    {
+      "level": 1,
+      "title": "Dubbo",
+      "pdf_page": 138
+    },
+    {
+      "level": 2,
+      "title": "1.什么是Dubbo?",
+      "pdf_page": 138
+    },
+    {
+      "level": 2,
+      "title": "2.为什么要使用Dubbo?",
+      "pdf_page": 139
+    },
+    {
+      "level": 2,
+      "title": "3.Dubbo提供了哪3个关键功能？",
+      "pdf_page": 139
+    },
+    {
+      "level": 2,
+      "title": "4.你知道哪些机构在用Dubbo吗？",
+      "pdf_page": 139
+    },
+    {
+      "level": 2,
+      "title": "5.Dubbo服务的关键节点有哪些?",
+      "pdf_page": 139
+    },
+    {
+      "level": 2,
+      "title": "6.说一下Dubbo服务注册流程?",
+      "pdf_page": 140
+    },
+    {
+      "level": 2,
+      "title": "7.能画一下服务注册流程图吗？",
+      "pdf_page": 140
+    },
+    {
+      "level": 2,
+      "title": "8.Dubbo架构的特点？",
+      "pdf_page": 141
+    },
+    {
+      "level": 2,
+      "title": "9.对jdk的最小版本需求？",
+      "pdf_page": 141
+    },
+    {
+      "level": 2,
+      "title": "10.注册中心的选择？",
+      "pdf_page": 141
+    },
+    {
+      "level": 2,
+      "title": "11.Dubbo的核心配置？用途？",
+      "pdf_page": 141
+    },
+    {
+      "level": 2,
+      "title": "12.配置优先级规则？",
+      "pdf_page": 142
+    },
+    {
+      "level": 2,
+      "title": "13.如何用代码方式绕过注册中心点对点直连？",
+      "pdf_page": 143
+    },
+    {
+      "level": 2,
+      "title": "14.Dubbo配置来源有几种？分别是？",
+      "pdf_page": 143
+    },
+    {
+      "level": 2,
+      "title": "15.如何禁用某个服务的启动检查？",
+      "pdf_page": 144
+    },
+    {
+      "level": 2,
+      "title": "16.Dubbo 负载均衡策略？默认是？",
+      "pdf_page": 144
+    },
+    {
+      "level": 2,
+      "title": "17.上线兼容老版本？",
+      "pdf_page": 144
+    },
+    {
+      "level": 2,
+      "title": "18.开发测试环境，想绕过注册中心如何配置？",
+      "pdf_page": 144
+    },
+    {
+      "level": 2,
+      "title": "19.集群容错几种方法？",
+      "pdf_page": 144
+    },
+    {
+      "level": 2,
+      "title": "20.Dubbo有几种配置方式？",
+      "pdf_page": 145
+    },
+    {
+      "level": 2,
+      "title": "21.Dubbo有哪些协议？推荐？",
+      "pdf_page": 145
+    },
+    {
+      "level": 2,
+      "title": "22.Dubbo使用什么通信框架?",
+      "pdf_page": 145
+    },
+    {
+      "level": 2,
+      "title": "23.dubbo协议默认端口号？http协议默认端口？hessian?rmi?",
+      "pdf_page": 145
+    },
+    {
+      "level": 2,
+      "title": "24.Dubbo默认序列化框架?其他的你还知道？",
+      "pdf_page": 145
+    },
+    {
+      "level": 2,
+      "title": "25.一个服务有多重实现时，如何处理？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "26.Dubbo服务调用默认是阻塞的？还有其他的？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "27.Dubbo服务追踪解决方案?",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "28.Dubbo不维护了吗？Dubbo和Dubbox有什么区别？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "29.Dubbox有什么新功能？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "30.io线程池大小默认？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "31.dubbo://协议适合什么样的服务调用？",
+      "pdf_page": 146
+    },
+    {
+      "level": 2,
+      "title": "32.自动剔除服务什么原理？",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "33.从 2.0.5 版本开始，dubbo支持通过x命令来进行服务治理?",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "34.如何用命令查看服务列表？",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "35.Dubbo框架设计是怎样的？",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "36.你读过Dubbo的源码吗？",
+      "pdf_page": 147
+    },
+    {
+      "level": 1,
+      "title": "SpringBoot",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "1.什么是SpringBoot?",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "2.SpringBoot的特征？",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "3.如何快速构建一个SpringBoot项目？",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "4.SpringBoot启动类注解?它是由哪些注解组成？",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "5.什么是yaml?",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "6.SpringBoot支持配置文件的格式?",
+      "pdf_page": 148
+    },
+    {
+      "level": 2,
+      "title": "7.SpringBoot启动方式？",
+      "pdf_page": 149
+    },
+    {
+      "level": 2,
+      "title": "8.SpringBoot需要独立的容器运行？",
+      "pdf_page": 149
+    },
+    {
+      "level": 2,
+      "title": "9.SpringBoot配置途径？",
+      "pdf_page": 149
+    },
+    {
+      "level": 2,
+      "title": "10.application.properties和application.yml文件可放位置?优先级?",
+      "pdf_page": 149
+    },
+    {
+      "level": 2,
+      "title": "11.SpringBoot自动配置原理?",
+      "pdf_page": 149
+    },
+    {
+      "level": 2,
+      "title": "12.SpringBoot热部署方式？",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "13.bootstrap.yml 和application.yml?",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "14.SpringBoot如何修改端口号?",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "15.开启SpringBoot特性的几种方式?",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "16.SpringBoot如何兼容Spring项目?",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "17.SpringBoot配置监控?",
+      "pdf_page": 150
+    },
+    {
+      "level": 2,
+      "title": "18.获得Bean装配报告信息访问哪个端点？",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "19.关闭应用程序访问哪个端点?",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "20.查看发布应用信息访问哪个端点?",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "21.针对请求访问的几个组合注解？",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "22.SpringBoot 中的starter？",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "23.SpringBoot集成Mybatis?",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "24.什么是SpringProfiles?",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "25.不同的环境的配置文件?",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "26.如何激活某个环境的配置？",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "27.编写测试用例的注解？",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "28.SpringBoot异常处理相关注解?",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "29.SpringBoot 1.x 和 2.x区别?·······",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "30.SpringBoot读取配置相关注解有？",
+      "pdf_page": 153
+    },
+    {
+      "level": 1,
+      "title": "Kafka",
+      "pdf_page": 153
+    },
+    {
+      "level": 2,
+      "title": "1.什么是kafka?",
+      "pdf_page": 153
+    },
+    {
+      "level": 2,
+      "title": "2.kafka的3个关键功能？",
+      "pdf_page": 153
+    },
+    {
+      "level": 2,
+      "title": "3.kafka通常用于两大类应用？",
+      "pdf_page": 153
+    },
+    {
+      "level": 2,
+      "title": "4.kafka特性?",
+      "pdf_page": 153
+    },
+    {
+      "level": 2,
+      "title": "5.kafka的5个核心Api?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "6.什么是Broker（代理）?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "7.什么是Producer（生产者）?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "8.什么是Consumer（消费者）?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "9.什么是Topic（主题）?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "10.什么是Partition（分区）?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "11.分区和代理节点的关系？",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "12.什么是副本(Replication)?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "13.什么是记录(Record)?",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "14.kafka适合哪些场景？",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "15.kafka磁盘选用上？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "16.使用RAID的优势?",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "17.磁盘容量规划需要考虑到几个因素？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "18.Broker使用单个？多个文件目录路径参数？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "19.一般来说选择哪个参数配置路径？好处？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "20.自动创建主题的相关参数是?",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "21.解决kafka消息丢失问题？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "22.如何自定分区策略？",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "23.kafka压缩消息可能发生的地方？",
+      "pdf_page": 156
+    },
+    {
+      "level": 2,
+      "title": "24.kafka消息重复问题？",
+      "pdf_page": 156
+    },
+    {
+      "level": 2,
+      "title": "25.你知道的kafka监控工具？",
+      "pdf_page": 156
+    },
+    {
+      "level": 1,
+      "title": "SpringCloud",
+      "pdf_page": 156
+    },
+    {
+      "level": 2,
+      "title": "1.什么是SpringCloud?",
+      "pdf_page": 156
+    },
+    {
+      "level": 2,
+      "title": "2.什么是微服务？",
+      "pdf_page": 156
+    },
+    {
+      "level": 2,
+      "title": "3.SpringCloud有哪些特征?",
+      "pdf_page": 157
+    },
+    {
+      "level": 2,
+      "title": "4.SpringCloud核心组件?",
+      "pdf_page": 157
+    },
+    {
+      "level": 2,
+      "title": "5.SpringCloud基于什么协议？",
+      "pdf_page": 157
+    },
+    {
+      "level": 2,
+      "title": "6.SpringCloud和Dubbo区别?",
+      "pdf_page": 157
+    },
+    {
+      "level": 2,
+      "title": "7.Eureka是什么？",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "8.服务治理的基础角色？",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "9.什么是服务续约？",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "10.什么是服务下线？",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "11.什么是失效剔除？",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "12.什么是自我保护机制？",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "13.Ribbon是什么?",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "14.Ribbon负载均衡的注解是?",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "15.Ribbon负载均衡策略有哪些？",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "16.什么是服务熔断？",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "17.什么是服务降级？",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "18.什么是Hystrix?",
+      "pdf_page": 159
+    },
+    {
+      "level": 2,
+      "title": "19.断路器Hystrix的有哪些功能？",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "20.Hystrix将远程调用封装到？",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "21.启动熔断降级服务的注解？",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "22.什么是Feign?",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "23.Feign优点？",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "24.什么是Config?",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "25.Config组件中的两个角色?",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "26.什么是Zuul?",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "27.使用Zuul的优点?",
+      "pdf_page": 160
+    },
+    {
+      "level": 2,
+      "title": "28.Zuul的核心是？",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "29.Zuul有几种过滤器类型？分别是？",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "30.什么是Sleuth?",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "31.Sleuth帮助我们做了哪些工作？",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "32.什么是Bus?",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "33.eureka比zookeeper的优势在？",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "34.什么是Stream?",
+      "pdf_page": 161
+    },
+    {
+      "level": 2,
+      "title": "35.更多知识？",
+      "pdf_page": 162
+    },
+    {
+      "level": 1,
+      "title": "简历",
+      "pdf_page": 162
+    },
+    {
+      "level": 2,
+      "title": "一、基本格调",
+      "pdf_page": 162
+    },
+    {
+      "level": 2,
+      "title": "二、基本信息（姓名/性别/毕业院校/电话/邮箱/居住地/期望地）",
+      "pdf_page": 163
+    },
+    {
+      "level": 2,
+      "title": "三、工作经历&项目经历",
+      "pdf_page": 163
+    },
+    {
+      "level": 2,
+      "title": "四、工作期望&个人评价",
+      "pdf_page": 164
+    },
+    {
+      "level": 2,
+      "title": "五、 是否有博客，个人技术栈点等",
+      "pdf_page": 165
+    },
+    {
+      "level": 2,
+      "title": "六、简历内容真实性",
+      "pdf_page": 165
+    }
+  ]
+}
